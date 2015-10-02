@@ -1,0 +1,25 @@
+.home-tertiary {
+
+	
+
+	.contribute-box {
+		background-color:$color__bblue;
+		padding:2em;
+		margin-bottom:2em;
+
+		.icon-box {
+			text-align:center;
+		}
+	}
+
+	.link-to-top {
+		text-align:center;
+		margin-bottom:2em;
+		text-transform: uppercase;
+		width:100%;
+
+		i {
+			margin-right:.2em;
+		}
+	}	
+}

@@ -1,0 +1,56 @@
+/*--------------------------------------------------------------
+## Roboto fonts imported from google webfonts.
+--------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Slab:400,100,300,700);
+
+/*--------------------------------------------------------------
+## Fontawesome
+--------------------------------------------------------------*/
+@import "fontawesome/font-awesome";
+
+body,
+button,
+input,
+select,
+textarea {
+	color: $color__text-main;
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	@include font-size(1);
+}
+p, h1, h2, h3, h4, h5, h6 {
+	margin-top:0;
+	color:$color__text-main;
+	letter-spacing: 0;
+}
+h1, h2, h3, h4 {
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.2em;
+	margin:.25em 0 .75em 0;
+
+	&.sans-serif {
+		font-weight: 500;
+	}
+}
+
+a {
+	color:$color__link;
+	text-decoration: none;
+	font-weight: normal;
+}
+a:visited {
+	color:$color__link-visited;
+}
+a:hover {
+	color:$color__link-hover;
+	text-decoration: underline;
+}
+p {
+	color:$color__paragraph;
+	line-height:1.5em;
+}
+.serif {
+	font-family: 'Roboto Slab', serif;
+}
+.sans-serif {
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+}

@@ -1,0 +1,37 @@
+.mdl-mega-footer {
+	clear: both;
+	position: relative;
+
+	background-color:$color__grey-footer;
+	color:$mdl-color-text--grey-700;
+
+	padding:2em 0;
+
+	h5 {
+		color:$mdl-color-text--grey-700;
+		font-size:1.2em;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight:400;
+	}
+
+	p {
+		color:$mdl-color-text--grey-700;
+	}
+
+	.footer-content {
+		p {
+			margin-bottom:.5em;
+		}
+		img {
+			margin-right:2em;
+			margin-bottom:1em;
+		}
+		@media (max-width: 840px) {
+			.mdl-cell {
+				text-align: center;
+			}
+		}
+	}
+
+}

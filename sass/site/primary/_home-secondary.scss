@@ -1,0 +1,86 @@
+.home-secondary {
+
+	.mdl-card {
+
+		width:auto;
+		margin-bottom:8px; 
+
+		.mdl-card__title {
+
+			background-color:$color__tertiary;
+			color:white;
+
+			h2.mdl-card__title-text {
+				font-size:1.3em;
+			}
+			h4.mdl-card__title-text {
+				font-size:1.2em;
+			}
+		}
+		.mdl-card__supporting-text {
+			h3 {
+				font-size:1.7em;
+			}
+		}
+
+		&.call-to-action {
+			
+			min-height: 0px;
+
+			.mdl-card__title {
+				display:block;
+				padding-top:35px;
+				padding-bottom:35px;
+				vertical-align: middle;
+				h4 {
+					font-weight:400;
+				}
+			}
+			.mdl-card__menu {
+				top: 50%;
+    			margin-top: -24px;
+			}
+		}
+
+		h4 {
+			font-size:1.2em;
+		}
+		h5 {
+			font-size:1.1em;
+			font-weight:400;
+			color:$color__grey-green;
+			&.location {
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	.home-latest-submission, .home-latest-news {
+		.mdl-card {
+			min-height: 0px;
+
+			p {
+				margin-bottom:0;
+			}
+		}
+		.mdl-card__supporting-text {
+			h3 {
+				font-size:1.2em;
+
+			}
+		}
+		.submission-link:hover {
+			text-decoration: none!important;
+			.mdl-card {
+				background-color:$color__background-hover;
+			}
+		}
+	}
+	.mdl-card__supporting-text.mdl-card--border {
+		border-top: 1px solid rgba(0,0,0,.1);
+
+		&:nth-child(2) {
+			border-top:0px;
+		}
+	}
+}

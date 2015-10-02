@@ -1,0 +1,69 @@
+.home-primary {
+
+	&.mdl-grid {
+		padding:0;
+		margin:0 16px 2em 16px;
+	}
+	.mdl-card {
+		background-color:$color__grey-zero;
+
+		h2 {
+			font-weight: 400;
+			color:white;
+			text-shadow:0px 1px 5px rgba(0,0,0,.5);
+		}
+		.mdl-card__title {
+			background-position:top center;
+			background-repeat:no-repeat;
+			height:227px;
+
+			.mdl-card__title-text {
+				max-width: 86%;
+			}
+		}
+		.mdl-card__supporting-text {
+			max-width: 85%;
+			padding:20px 16px 8px;
+
+			a {
+				text-transform: uppercase;
+				display:block;
+				font-weight: 500;
+				font-size:1.1em;
+			}
+		}
+		&:nth-child(1) {
+		}
+		&:nth-child(2) { 
+			background-color:$color__grey-one;
+		}
+		&:nth-child(3) {
+			background-color:$color__grey-two;
+		}
+		&:nth-child(4) {
+		}
+		.mdl-card__menu {
+			top:200px;
+		}
+		&.mdl-cell.mdl-cell--3-col {
+			margin:0;
+			border-radius:0px;
+		}
+	}
+	@media (min-width: 840px) {
+		.mdl-cell--3-col, .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {
+		    width: calc(25%);
+		}
+	}
+	@media (max-width: 839px) and (min-width: 480px) {
+		.mdl-cell--4-col, .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {
+		    width: calc(50%);
+		}
+	}
+	@media (max-width: 479px) {
+		.mdl-cell--12-col, .mdl-cell--12-col-phone.mdl-cell--12-col-phone {
+		    width: calc(100% );
+		}
+	}
+
+}

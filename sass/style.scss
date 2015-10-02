@@ -1,0 +1,65 @@
+/*!
+ Theme Name:   RCCDF Material Theme
+ Theme URI:    http://www.rccdf.com.au/
+ Description:  RCCDF theme based on material design. Based on Brad Williams' MDLWP.
+ Author:       Sam Wolski, Brad Williams
+ Author URI:   http://www.samwolski.com, http://braginteractive.com
+
+ Description: Material Design Lite WordPress Theme
+ Version: 1.1.8
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Navigation
+	## Menus
+# Alignments
+# Content
+    ## Posts and pages
+	## Comments
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+ @import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Widths
+--------------------------------------------------------------*/
+@import "modules/widths";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+@import "site/footer";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";

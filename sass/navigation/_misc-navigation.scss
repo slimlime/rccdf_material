@@ -1,0 +1,87 @@
+
+.mdl-button--colored {
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+  &.mdl-button--colored-secondary {
+    background:$color__secondary;
+    color:#000;
+    &:hover {
+      background:$color__secondary-hover;
+    }
+  }
+
+  &.mdl-button--fab {
+    line-height: 48px;
+    background:$color__secondary;
+    font-size: 24px;
+    height: 48px;
+    margin: auto;
+    min-width: 48px;
+    width: 48px;
+
+    &.mdl-button--fab-small {
+      line-height: 28px;
+      font-size: 16px;
+      height: 28px;
+      margin: auto;
+      min-width: 28px;
+      width: 28px;
+      .fa-chevron-right {
+        margin:6px 0 0 3px;
+      }
+    }
+    .fa-chevron-right, .fa-folder-open {
+      margin: 2px 0 0 3px;
+    }
+    .fa-table {
+      margin: 1px 0 0 0;
+    }
+
+    &:hover {
+
+
+      z-index:1000;
+      box-shadow:rgba(0, 0, 0, 0.3) 0 6px 6px 0;
+      -ms-transform: translate(0px,-4px); /* IE 9 */
+      -webkit-transform: translate(0px,-4px); /* Safari */
+      transform: translate(0px,-4px);
+
+      background:$color__secondary-hover;
+
+    }
+
+    i {
+      color:#000;
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: 0!important;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color:$color__link;
+      color:#FFF;
+    }
+    .mdl-button--colored {
+      
+      background-color:$color__link;
+      color:#FFF;
+    }
+  
+}

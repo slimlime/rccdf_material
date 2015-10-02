@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+@import "primary/comments";
+/*--------------------------------------------------------------
+## BBPress forum styles
+--------------------------------------------------------------*/
+@import "primary/_forum";
+/*--------------------------------------------------------------
+## Modules 
+--------------------------------------------------------------*/
+@import "primary/_home-primary";
+@import "primary/_home-secondary";
+@import "primary/_home-tertiary";
+/*--------------------------------------------------------------
+## Templates - Page Ribbon
+--------------------------------------------------------------*/
+@import "templates/_page-ribbon";
+
+
+
+body {
+  background-color: $color__background-body;
+
+  background-image: $bg-img;
+  background-position: $bg-position;
+  background-repeat: $bg-repeat;
+
+  #page {
+    min-height: 100%;
+    height: auto;
+    overflow-y: hidden;
+  }
+}
+.mdl-layout__content {
+  background-image: $bg-banner-img;
+  background-position: $bg-banner-position;
+  background-repeat: $bg-banner-repeat;
+  overflow-y: visible;
+  overflow-x: visible;
+}
+.mdl-layout__header {
+	background:none;
+	box-shadow:none;
+}
+.site-header {
+  /*background:#FFF;*/
+}
+.site-main {
+  margin-top:-30px;
+}
+.mdl-layout__header-row {
+    width: 100%;
+}
+.mdl-card {
+  border-radius:0px;
+}
