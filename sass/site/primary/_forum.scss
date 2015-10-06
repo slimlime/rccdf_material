@@ -1,13 +1,19 @@
 .site-main {
 	&.forum {
-
-		.subscription-toggle {
+		#bbpress-forums li.bbp-header .bbp-reply-content, #bbpress-forums li.bbp-footer .bbp-reply-content {
+			margin-left:130px;
+		}
+		.subscription-toggle, .favorite-toggle {
 			float:right;
-			margin:0 0 .5em;
+			margin:0 .5em .5em .5em;
+			display:inline-block;
 			i {
 				margin-right:.35em;
 			}
 		}
+		#subscription-toggle, #favorite-toggle {
+			margin:0 .5em .5em .5em;
+		}	
 
 		.bbp-breadcrumb {
 			margin-top:.5em;

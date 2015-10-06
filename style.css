@@ -3155,57 +3155,66 @@ ol.comment-list {
 /*--------------------------------------------------------------
 ## BBPress forum styles
 --------------------------------------------------------------*/
-/* line 4, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
-.site-main.forum .subscription-toggle {
+/* line 3, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+.site-main.forum #bbpress-forums li.bbp-header .bbp-reply-content, .site-main.forum #bbpress-forums li.bbp-footer .bbp-reply-content {
+  margin-left: 130px; }
+
+/* line 6, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+.site-main.forum .subscription-toggle, .site-main.forum .favorite-toggle {
   float: right;
-  margin: 0 0 0.5em; }
-  /* line 7, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
-  .site-main.forum .subscription-toggle i {
+  margin: 0 0.5em 0.5em 0.5em;
+  display: inline-block; }
+  /* line 10, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  .site-main.forum .subscription-toggle i, .site-main.forum .favorite-toggle i {
     margin-right: .35em; }
 
-/* line 12, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 14, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+.site-main.forum #subscription-toggle, .site-main.forum #favorite-toggle {
+  margin: 0 0.5em 0.5em 0.5em; }
+
+/* line 18, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .bbp-breadcrumb {
   margin-top: .5em; }
 
-/* line 17, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 23, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .widget_display_stats dl {
   margin-top: 0;
   font-size: 1.2em;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 1em; }
-  /* line 23, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 29, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .widget_display_stats dl dt {
     clear: left; }
-  /* line 26, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 32, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .widget_display_stats dl dd {
     text-align: right; }
-  /* line 29, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 35, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .widget_display_stats dl dt, .site-main.forum .widget_display_stats dl dd {
     margin: 0.25em 0 0.5em 0;
     display: inline-block;
     width: 45%;
     vertical-align: top; }
 
-/* line 38, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 44, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .widget-title {
   font-weight: 300;
   font-size: 1.8em;
   margin: 0.75em 0 0.25em 0; }
-  /* line 43, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 49, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .widget-title:first-of-type {
     margin-top: 0; }
 
-/* line 48, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 54, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .widget_display_topics ul {
   list-style-type: none;
   padding: 0; }
-  /* line 51, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 57, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .widget_display_topics ul li {
     background-color: rgba(0, 0, 0, 0.1);
     display: block;
     margin-bottom: .5em;
     padding: 0.75em 0.5em 0.75em 0.5em; }
-    /* line 56, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+    /* line 62, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
     .site-main.forum .widget_display_topics ul li i {
       vertical-align: top;
       font-size: 1.6em;
@@ -3215,30 +3224,30 @@ ol.comment-list {
       color: #000;
       margin: 0 0.3em; }
 
-/* line 70, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 76, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum #bbpress-forums div.bbp-search-form {
   float: none; }
 
-/* line 73, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 79, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum #bbpress-forums .bbp-forum-info .bbp-forum-content, .site-main.forum #bbpress-forums p.bbp-topic-meta {
   font-size: 0.95em;
   margin: 0.25em 0 1em; }
 
-/* line 77, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 83, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum #bbpress-forums #bbp-search-form #bbp_search {
   width: 100%;
   padding: .35em 0; }
 
-/* line 81, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 87, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .mdl-textfield {
   width: 100%;
   max-width: 400px; }
-  /* line 86, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 92, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .mdl-textfield .mdl-textfield__input {
     width: 100%;
     max-width: 360px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-  /* line 91, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 97, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .mdl-textfield button[type="submit"] {
     font-size: 1.4em;
     color: rgba(0, 0, 0, 0.5);
@@ -3248,51 +3257,51 @@ ol.comment-list {
     float: right;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-/* line 101, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 107, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .mdl-data-table {
   color: #5f5f5f;
   border-color: #dbdbdb;
   margin-top: 2em; }
-  /* line 106, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 112, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .mdl-data-table th, .site-main.forum .mdl-data-table td {
     padding: 1em;
     border-color: #dbdbdb; }
-  /* line 110, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 116, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .mdl-data-table th {
     color: #90a4ae;
     font-weight: 500; }
-    /* line 113, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+    /* line 119, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
     .site-main.forum .mdl-data-table th:first-of-type {
       padding-left: 18px; }
-  /* line 118, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+  /* line 124, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
   .site-main.forum .mdl-data-table td {
     color: #5f5f5f; }
-    /* line 121, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+    /* line 127, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
     .site-main.forum .mdl-data-table td:first-of-type {
       padding-left: 18px; }
 
-/* line 127, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 133, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum table {
   width: 100%;
   font-size: 1.2em; }
 
-/* line 131, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 137, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .mdl-card__media {
   height: 120px; }
 
-/* line 135, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 141, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .mdl-card__supporting-text {
   width: auto;
   color: #000000; }
 
-/* line 140, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 146, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum #bbpress-forums p.bbp-topic-meta img.avatar, .site-main.forum #bbpress-forums ul.bbp-reply-revision-log img.avatar, .site-main.forum #bbpress-forums ul.bbp-topic-revision-log img.avatar, .site-main.forum #bbpress-forums div.bbp-template-notice img.avatar, .site-main.forum #bbpress-forums .widget_display_topics img.avatar, .site-main.forum #bbpress-forums .widget_display_replies img.avatar {
   border-radius: 50%;
   border: none;
   vertical-align: top;
   margin-top: 3px; }
 
-/* line 146, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
+/* line 152, /Applications/MAMP/htdocs/adb/wp-content/themes/rccdf_material/sass/site/primary/_forum.scss */
 .site-main.forum .bbp-the-content {
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1); }
