@@ -46,6 +46,11 @@ $color__grey-footer: #eaeaea;
 .mdl-button {
 	&.mdl-button--colored {
     	color: $color__link;
+
+    	&.mdl-button--raised {
+    		color: white;
+    	}
+
     	&.custom {
     		i {
 		    	color:white;

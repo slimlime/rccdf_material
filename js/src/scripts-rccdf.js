@@ -1,5 +1,3 @@
-
-
 jQuery(document).ready(function($){
 
 	//
@@ -26,5 +24,7 @@ jQuery(document).ready(function($){
 
 	// forum widgets
 	// - statisics widget
+	$('.widget_display_stats')
+
 
 });
