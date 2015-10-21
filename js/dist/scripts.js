@@ -6,8 +6,6 @@ jQuery(document).ready(function($){
 	//Class additions for packages that can't be overwritten.
 	//
 	//
-	//
-
 
 	// plugin buttons
 	$('input[type="submit"], button[type="submit"]:not(#bbp_search_submit)').addClass('mdl-button mdl-js-button mdl-button--raised mdl-button--colored');
@@ -25,7 +23,7 @@ jQuery(document).ready(function($){
 	$('.subscription-toggle').prepend('<i class="fa fa-bookmark"></i>').addClass('mdl-button mdl-js-button mdl-js-ripple-effect');
 	$('.favorite-toggle').prepend('<i class="fa fa-star"></i>').addClass('mdl-button mdl-js-button mdl-js-ripple-effect');
 
-	var removePipe = $('#subscription-toggle').html().substring(7);
+	var removePipe = $('#subscription-toggle').html().replace("|","");
 	$('#subscription-toggle').html(removePipe);
 
 	// forum widgets

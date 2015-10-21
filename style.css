@@ -3150,7 +3150,8 @@ ol.comment-list {
   padding: 8px 30px;
   border: 0;
   margin: 10px 1px;
-  cursor: pointer; }
+  cursor: pointer;
+  line-height: 1em; }
 
 /*--------------------------------------------------------------
 ## BBPress forum styles
